@@ -1,0 +1,92 @@
+/* header styles */
+.header-wraper {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    padding: 30px;
+}
+.nav-ul {
+    display: flex;
+}
+.burger-bar {
+    display: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+
+/* section 1 styles */
+.block {
+    width: 300px;
+    height: 300px;
+}
+.block:nth-child(1) {
+    background-color: yellow;
+}
+.block:nth-child(2) {
+    background-color: red;
+}
+.block:nth-child(3) {
+    background-color: blue;
+}
+.wraper-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 400px;
+    background-color: indigo;
+}
+
+
+/* section 2 styles */
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: grey;
+}
+.left-block {
+    max-width: 500px;
+    width: 100%;
+    height: 300px;
+    background-color:forestgreen;
+}
+.right-block {
+    max-width: 500px;
+    width: 100%;
+    height: 300px;
+    background-color: darkmagenta;
+}
+.wraper-flex2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* images section */
+.images-wraper {
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+.image-block {
+    width: 350px;
+    /* width: 100%; */
+}
+.image-block img {
+    width: 100%;
+}
+
+
+/* icons */
+.fa-facebook-messenger {
+    color: blue;
+    font-size: 30px;
+}
+.youtube-icon {
+    color:red;
+    font-size: 30px;
+}
+.fa-facebook-messenger:hover {
+    color: yellow;
+}

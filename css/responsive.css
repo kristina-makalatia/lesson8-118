@@ -1,0 +1,96 @@
+/* 1 example - width */
+/* @media (max-width:900px) {
+    .block  {
+        width: 150px;
+    }
+    .block:nth-child(1),
+    .block:nth-child(2),
+    .block:nth-child(3) {
+        background-color: blueviolet;
+    }
+}
+
+@media (max-width: 500px) {
+    .block:nth-child(3) {
+        display: none;
+    }
+}
+
+@media (max-width: 450px) {
+    .block:nth-child(3) {
+        display: block;
+        background-color: crimson;
+    }
+    .block:nth-child(2) {
+        background-color: darkgreen;
+    }
+} */
+/* @media (max-width: 900px) {
+    .wraper-flex {
+        height: auto;
+    }
+} */
+/* 1024; 768; 480; 320 */
+
+/* 2 example - direction */
+/* @media (max-width: 950px) {
+    .wraper-flex {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .block:nth-child(2) {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+} */
+
+/* 3 example - wrap */
+/* @media (max-width:600px) {
+    .wraper-flex {
+        justify-content: center;
+    }
+    .block:nth-child(2) {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+} */
+
+
+
+/* section 2 responsive styles */
+/* @media (max-width: 1024px) {
+    .wraper-flex2 {
+        flex-direction: column;
+    }
+}
+ */
+
+/* images example %  ??? - problem*/
+@media (max-width: 1170px) {
+    .images-wraper {
+        flex-wrap: wrap;
+    }
+    .image-block {
+        width: 48%;
+    }
+}
+
+@media (max-width: 480px) {
+    .image-block {
+        width: 100%;
+    }
+}
+
+
+/* header responsive */
+@media (max-width: 768px) {
+    .navigation {
+        display: none;
+    }
+    .header-wraper {
+        background-color: red;
+    }
+    .burger-bar {
+        display: block;
+    }
+}
